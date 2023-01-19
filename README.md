@@ -2,7 +2,7 @@
 
 This boilerplate sets up a basic project using Vite TS, Tailwind, Easy-peasy and Sass.
 
-To use this, first clone the app using degit like so: `npx degit mithya-team/vite-ts-template <my-awesome-project>`
+To use this, first clone the repo using degit like so: `npx degit mithya-team/vite-ts-template <my-awesome-project>`
 
 Then open a terminal and cd into the folder.
 Run `yarn && yarn dev` to install the dependencies and start the dev server.
