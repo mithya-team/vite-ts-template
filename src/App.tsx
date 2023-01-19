@@ -8,7 +8,7 @@ const App: FC = () => {
         <StoreProvider store={store}>
             <div>
                 <h1 className="text-2xl">
-                    Mithya Vite TS, Tailwind, Easy-peasy, Sass template
+                    Mithya Vite TS, Tailwind, Easy-peasy, Sass boilerplate
                 </h1>
                 <a
                     className="text-sapphire-100"
