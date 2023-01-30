@@ -6,7 +6,7 @@ import tsConfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [react(), tsConfigPaths()],
   server: {
-    port: 4000,
+    port: 4002,
     host: true, // Will expose this server on local network at <local.ip.add.ress>:4000 Can be useful for testing on real devices (mobile, tablet, second desktop with different os, etc)
     open: true, // Will open the site on a browser.
   },
