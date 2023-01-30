@@ -21,3 +21,9 @@ To use these templates, run the corresponding command. You can either answer the
 | Component | `yarn g:comp`  | name                                          |
 | Model     | `yarn g:model` | name, api, needsParser(y/n), needsUtils (y/n) |
 | Store     | `yarn g:store` | name                                          |
+
+For example to create a model, you can run `yarn g:model --name model_name --needsParser y` and it will prompt you only for the api endpoint and for whether you need a utils file with this model.
+
+## Other features
+
+This boilerplate also has setup and templates for storybook in the branch "storybook". To use that as the base for your new project run `npx degit mithya-team/vite-ts-template#storybook <my-awesome-project>`. If you get an error that says `zsh: no matches found: mithya-team/vite-ts-template#storybook`, run this: `npx degit "mithya-team/vite-ts-template#storybook" <my-awesome-project>`.
