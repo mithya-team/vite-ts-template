@@ -26,4 +26,12 @@ For example to create a model, you can run `yarn g:model --name model_name --nee
 
 ## Other features
 
-This boilerplate also has setup and templates for storybook in the branch "storybook". To use that as the base for your new project run `npx degit mithya-team/vite-ts-template#storybook <my-awesome-project>`. If you get an error that says `zsh: no matches found: mithya-team/vite-ts-template#storybook`, run this: `npx degit "mithya-team/vite-ts-template#storybook" <my-awesome-project>`.
+This boilerplate also has setup for storybook and pwa on different branches.
+To use those branches as the base for your new project run `npx degit mithya-team/vite-ts-template#<branch-name> <my-awesome-project>`. If you get an error that says `zsh: no matches found: mithya-team/vite-ts-template#<branch-name>`, run this: `npx degit "mithya-team/vite-ts-template#<branch-name>" <my-awesome-project>`.
+Following branches are available.
+
+| branch        | description                   |
+| ------------- | ----------------------------- |
+| storybook     | vite app with storybook       |
+| pwa           | vite app with pwa config      |
+| pwa-storybook | vite app with pwa & storybook |
